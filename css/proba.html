@@ -1,0 +1,66 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+      <title>Document</title>
+      <style>
+          header{
+			position: fixed;
+			top:0; left:0;right: 0;
+			height: 5em;
+			background: #999;
+        }
+        header .logo{
+			background: #CAA;
+			width: 8em;
+			height: 100%;
+		}
+		header .menu{
+			position: absolute;
+			left: 8em;right: 0; bottom:0;
+			background: #AAC;
+			width: calc(100% - 8em);
+			/* height: 100%; */
+		}
+		.list_menu{
+			/* position the whole UL menu to the right */
+			float: right;
+			border: 5px solid red;
+		}
+		.list_menu>li{border:2px solid aqua;
+			/* position items next to each other */
+			float: left;
+			padding: .5em;
+			font-size: 30px;
+			box-sizing: border-box;
+		}
+      </style>
+  </head>
+  <body>
+    <header class="header">
+        <div class="logo">
+           <img src="../picture/logo.png" alt="Лого">
+        </div>
+        <nav class="menu">
+          <ul class="list_menu">
+             <li class="menu_optional"><a href="#" target="_blank" title="Kонтакти">Начало</a></li>
+             <li class="menu_optional"><a href="../pages/portfolioPage.html" target="_blank" title="Портфолио">За нас</a></li>
+             <li class="menu_optional services"><a href="#" target="_blank" title="Услуги">Услуги</a>
+              <!-- <ul class="sub_menu">
+                 <li><a href="">Сватби</a></li>
+                 <li><a href="">Събития</a></li>
+                 <li><a href="">Цветна градина</a></li>
+                 <li><a href="">Ръчно изработени изделия</a></li>
+              </ul> -->
+            </li>
+              <li class="menu_optional aboutUs"><a  class="active" href="#" target="_blank" title="За нас">Потфолио</a></li>
+             <li class="menu_optional home"><a  href="../index.html" target="_blank" title="Начало">Контакти</a></li>
+           </ul>
+       </nav>
+      </header>
+      
+  </body>
+  </html>

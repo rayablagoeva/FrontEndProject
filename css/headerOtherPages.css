@@ -1,0 +1,39 @@
+.header{
+    height: 5em;
+}
+  .list_menu>li>a{
+    color:rgba(0, 0, 0, 0.733);
+    text-shadow: none;
+  }
+  a.active::after {
+
+    background-color: rgba(0, 0, 0, 0.733);;
+   }
+  .main{
+      margin:0em;
+      padding: 0em;
+  }
+  
+  .img_aboutUs{
+    background-image: url(../picture/picture2.jpg);
+    min-height: 10em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /* border: 0.2em solid red; */
+    margin-top:2em;
+    margin-bottom: 4em;
+  }
+  h1{
+    margin: 0em auto;
+    padding: 1em 0em;
+    text-align: center;
+    /* border: 0.1em solid yellow; */
+    min-height: 3em;
+    width: 9em;
+    font-size:50px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #33333393;
+    font-family: 'Bad Script', cursive;
+  }
