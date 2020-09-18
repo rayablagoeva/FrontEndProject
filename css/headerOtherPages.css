@@ -1,7 +1,7 @@
 .header{
     height: 5em;
 }
-  .list_menu>li>a{
+  .main-menu>li>a{
     color:rgba(0, 0, 0, 0.733);
     text-shadow: none;
   }
@@ -21,7 +21,7 @@
     background-size: 100% 100%;
     background-attachment: fixed;
     /* border: 0.2em solid red; */
-    margin-top:2em;
+    margin-top:0em;
     margin-bottom: 4em;
   }
   h1{
