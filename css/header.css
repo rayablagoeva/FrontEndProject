@@ -83,15 +83,15 @@ background-color: #fff;
 .sub_menu{
   visibility: hidden;
   margin-top: 1em;
-  height: 6em;
+  /* height: 6em; */
  }
 .services > .sub_menu > li >a{
   visibility: hidden;
 font-size: 17px;
 padding-top: 0.5em;
 position: relative;
-left:-6em;
-width: 300%;
+left:-4em;
+width: 200%;
 line-height: 1.7em;
 color: #EEE;
 box-sizing: border-box;
@@ -113,15 +113,41 @@ color: #000;
 text-shadow: 0.01em 0.01em #fff9f6;
 font-size: 20px;
 }
-.services:hover >.sub_menu{
-  visibility: visible;
+.services{
+  
+  width: 6vw;
+  position: relative;
 }
+/* .services:hover >.sub_menu{
+  visibility: visible;
+} */
 .sub_menu >li>a:hover{
-color: black;
+/* color: black;
 text-shadow: none;
 font-weight: 800;
 cursor: pointer;
 font-size:17px;
+position: relative;
+left: -10px; */
+font-size: 17px;
+padding-top: 0.5em;
+position: absolute;
+left:-3em;
+width: 200%;
+line-height: 1.7em;
+color: #EEE;
+box-sizing: border-box;
+padding: 0em 2em;;
+text-align: center;
+text-transform: uppercase;
+color: #fff;
+text-shadow: 0.1em 0.1em #000;
+ font-family: 'Bad Script', cursive;
+  font-family: 'Caveat', cursive;
+   font-weight: 500; 
+  background-color: rgba(105, 105, 105, 0.61);
+  height: 4vh;
+
 }
 .services:hover> .sub_menu :nth-child(1)>a {
 transform-origin: top center;

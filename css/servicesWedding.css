@@ -1,0 +1,105 @@
+.wed img{
+ width: 100%;
+ height: 100%;
+}
+.wed{
+    
+    height: 70vh;
+    width: 50vw;
+    margin: 0 auto;
+    /* border:1px solid green; */
+    margin-bottom: -4em;
+}
+.services_wedding{
+    /* border: 1px solid yellow; */
+    padding: 5em 2em;
+    background-color: #ece7e742;
+    width: 78vw;
+    margin: 0 auto;
+    margin-bottom: 4em;
+color: #746e6e;
+}
+.services_wedding > section > div>img{
+    display: block;
+    /* border: 1px solid green; */
+    margin: 0em auto;
+    margin-bottom: 1em;
+}
+
+.services_wedding > h3{
+    margin: 3em auto;
+    /* margin-bottom: 3em; */
+    /* border: 1px solid red; */
+    width: 30vw;
+    font-size:26px;
+    text-align: center;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Bad Script', cursive;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.services_wedding > section{
+    /* border: 1px solid darkblue; */
+    width: 76vw;
+    margin: 0 auto;
+    margin-left:3em ;
+}
+
+.services_wedding > section > div {
+    display: inline-block;
+    width: 25vw;
+    padding-right: 5em;
+    text-align:center;
+    vertical-align: middle;
+    font-size: 18px;
+
+    /* border: 1px solid green; */
+}
+.div{
+    font-size: 28px;
+    /* border: 1px solid springgreen ; */
+    width: 75vw;
+    margin: 0 auto;
+    font-style: italic;
+    font-weight: 560;
+    color: #4b4848;
+    letter-spacing: 2px;
+}
+.steps{
+    /* border: 1px solid red; */
+    width: 82vw;
+    margin:3em auto;
+}
+.steps > div {
+    display: inline-block;
+    /* border: 1px solid green; */
+    width: 20vw;
+    vertical-align:  middle;
+    text-align: center;
+    padding:2em;
+    color: #585555 ;
+    background-color: #d8d3d342;
+}
+.steps > div > img{
+    height: 60%;
+    width: 60%;
+    margin-bottom: 4em;
+    
+}
+.event,h4 {
+    
+    margin-top: 2em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.678);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+h4{
+    font-size: 19px;
+}
+.menu_optional>a::after{
+
+    bottom:4em;
+   
+    }
